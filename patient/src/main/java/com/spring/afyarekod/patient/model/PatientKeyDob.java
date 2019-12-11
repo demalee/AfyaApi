@@ -12,7 +12,7 @@ import org.springframework.data.cassandra.core.mapping.PrimaryKeyColumn;
 public class PatientKeyDob implements Serializable {
 
 
-
+    private static final long serialVersionUID = 8571033128885041603L;
     @PrimaryKeyColumn(name = "date_of_birth", type = PARTITIONED)
     private String gender;
 

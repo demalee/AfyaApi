@@ -12,7 +12,7 @@ import org.springframework.data.cassandra.core.mapping.PrimaryKeyColumn;
 public class PatientKeyGender implements Serializable {
 
 
-
+    private static final long serialVersionUID = -3070115729092998867L;
     @PrimaryKeyColumn(name = "gender", type = PARTITIONED)
     private String gender;
 

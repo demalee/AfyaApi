@@ -14,6 +14,7 @@ import java.util.Map;
 @Table("patient_by_id")
 public class PatientById implements Serializable {
 
+    private static final long serialVersionUID = 1982449322818435136L;
     @PrimaryKey
     private String patientid;
 

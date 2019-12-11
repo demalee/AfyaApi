@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.Map;
 @Table("patient_by_gender")
 public class PatientByGender implements Serializable {
+    private static final long serialVersionUID = 548008092004080311L;
     @PrimaryKey
 
     private String patientid;

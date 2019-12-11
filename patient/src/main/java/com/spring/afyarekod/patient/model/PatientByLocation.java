@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.Map;
 @Table("patient_by_Location")
 public class PatientByLocation implements Serializable {
+    private static final long serialVersionUID = -6005879980106319081L;
     @PrimaryKey
 
     private String patientid;

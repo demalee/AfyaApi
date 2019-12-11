@@ -11,6 +11,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 public class Patient implements Serializable {
+    private static final long serialVersionUID = -596200848582890124L;
     @PrimaryKey
 
     private String patientid;
