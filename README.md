@@ -1,0 +1,1 @@
+The AfyaRekod API services are developed using Spring Boot JAVA.
